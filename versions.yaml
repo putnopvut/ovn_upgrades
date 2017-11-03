@@ -1,47 +1,55 @@
 versions:
     -
-        name: 2.7.0
+        name: v2.7.0
         giturl: https://github.com/openvswitch/ovs.git
-        branch: v2.7.0
-        targets: '2.7,2.8,master'
+        targets:
+            - '2.7'
+            - '2.8'
+            - 'master'
     -
-        name: 2.7.1
+        name: v2.7.1
         giturl: https://github.com/openvswitch/ovs.git
-        branch: v2.7.1
-        targets: '2.7,2.8,master'
+        targets:
+            - '2.7'
+            - '2.8'
+            - 'master'
     -
-        name: 2.7.2
+        name: v2.7.2
         giturl: https://github.com/openvswitch/ovs.git
-        branch: v2.7.2
-        targets: '2.7,2.8,master'
+        targets:
+            - '2.7'
+            - '2.8'
+            - 'master'
     -
-        name: 2.7.3
+        name: v2.7.3
         giturl: https://github.com/openvswitch/ovs.git
-        branch: v2.7.3
-        targets: '2.7,2.8,master'
+        targets:
+            - '2.7'
+            - '2.8'
+            - 'master'
     -
-        name: 2.8.0
+        name: v2.8.0
         giturl: https://github.com/openvswitch/ovs.git
-        branch: v2.8.0
-        targets: '2.8,master'
+        targets:
+            - '2.8'
+            - 'master'
     -
-        name: 2.8.1
+        name: v2.8.1
         giturl: https://github.com/openvswitch/ovs.git
-        branch: v2.8.1
-        targets: '2.8,master'
+        targets:
+            - '2.8'
+            - 'master'
     -
-        name: 2.8.2
+        name: v2.8.2
         giturl: https://github.com/openvswitch/ovs.git
-        branch: v2.8.2
-        targets: '2.8,master'
+        targets:
+            - '2.8'
+            - 'master'
 
 targets:
     2.7:
         giturl: https://github.com/openvswitch/ovs.git
-        branch: 2.7
     2.8:
         giturl: https://github.com/openvswitch/ovs.git
-        branch: 2.8
     master:
         giturl: https://github.com/openvswitch/ovs.git
-        branch: master
