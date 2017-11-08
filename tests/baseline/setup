@@ -1,0 +1,3 @@
+#!/bin/sh
+
+echo "Setting up with $1 $2"

@@ -47,9 +47,12 @@ versions:
             - 'master'
 
 targets:
-    2.7:
+    -
+        name: '2.7'
         giturl: https://github.com/openvswitch/ovs.git
-    2.8:
+    -
+        name: '2.8'
         giturl: https://github.com/openvswitch/ovs.git
-    master:
+    -
+        name: 'master'
         giturl: https://github.com/openvswitch/ovs.git

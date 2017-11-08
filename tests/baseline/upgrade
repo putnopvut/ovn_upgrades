@@ -1,0 +1,3 @@
+#!/bin/sh
+
+echo "Upgrading: $1 $2"
